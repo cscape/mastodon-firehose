@@ -1,0 +1,20 @@
+# Folders
+
+node_modules
+
+.vscode
+.idea
+.DS_Store
+.grunt
+.lock-wscript
+pids
+logs
+
+# Files
+
+.env
+*.log
+*.pid
+*.seed
+*.DS_Store
+.servers*.json
