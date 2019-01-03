@@ -1,11 +1,13 @@
 {
   "name": "mastodon-firehose",
+  "private": true,
   "client": "Firehose Central",
   "version": "1.0.0",
   "description": "Centralized Firehose API for the Mastodon network.",
   "main": "socket.js",
   "scripts": {
-    "start": "node socket.js"
+    "start": "node socket.js",
+    "update": "node initial-fetch.js"
   },
   "author": "Cyberscape",
   "license": "MIT",
